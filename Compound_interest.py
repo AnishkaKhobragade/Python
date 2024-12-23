@@ -1,0 +1,6 @@
+p = int(input('Enter the amount of principal: '))
+r = int(input('Enter the annual interest rate paid: '))
+n = int(input('Enter the number of times per year the interest is compounded: '))
+t = int(input('Enter the number of years: '))
+a = (p) * ((1 + (r/n))**(n*t))
+print('The compound interest is: ', a)
